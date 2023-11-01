@@ -9,6 +9,8 @@ Install dependencies from requirements.txt and get dataset from [VQA-RAD](https:
 For inference use notebook in evals folder. </br>
 For replication of model use the train-split with final_script.py to train the model.</br>
 
+## Summary
+Entire summary of the work done can be found [here](https://github.com/patrick-batman/Med-ViLT/blob/c99adea69f1d435d807289acf685a2a1ccc26112/summary.pdf).
 
 ## Data Augmentation
 The VQA-RAD dataset, with 3515 data points, underwent crucial augmentation. Image techniques (flipping, blur, RAND-Augment) enhanced robustness. Question augmentation involved paraphrasing, transformer models, and innovative image-captioning methods for diverse question-answer pairs, fostering improved vision-language training through dataset enrichment.
